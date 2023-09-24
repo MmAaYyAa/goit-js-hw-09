@@ -16,3 +16,27 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.field {
+  
+  padding: 8px;
+  border-radius: 20px;
+  background-color: rgb(207, 129, 228);
+  font-size: 20px;
+  font-weight: semibold;
+  box-shadow: 3px 3px 3px rgb(207, 129, 228);
+  color: rgb(120, 96, 113);
+}
+
+#datetime-picker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
